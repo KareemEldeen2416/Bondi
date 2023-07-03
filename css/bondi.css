@@ -1,0 +1,29 @@
+:root{
+    --dark : #19238f
+}
+
+body{
+    font-family: "Roboto" , sans-serif;
+    height: 10000px;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar{
+    background-color: var(--dark);
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link{
+    color:  white;
+}
+
+.navbar .navbar-nav .nav-link:active,
+.navbar .nabar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus
+{
+
+    color: aquamarine; 
+}
